@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-content{
+    background-color: aqua;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 6fr 2fr 3fr 2fr;
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+}
+.grid-item{
+    font-size: 30px;
+    background-color: antiquewhite;
+    transition: 0.7s;
+}
+.grid-content .grid-item:nth-child(1){
+    background: url(../images/imagess.jpg)no-repeat center;
+    background-size: cover;
+    grid-row: 1 / 25;
+}
+.grid-item:hover{
+    transform: scale(1.03);
+}
+.grid-content .grid-item:nth-child(2){
+    background: url(../images/img.jpg)no-repeat center;
+    background-size: cover;
+}
+.grid-content .grid-item:nth-child(3){
+    background: url(../images/101698668311.jpg)no-repeat center;
+    background-size: cover;
+    grid-row: 2/25;
+}
+.grid-content .grid-item:nth-child(4){
+    background: url(../images/41698665414.jpg)no-repeat center;
+    background-size: cover;
+}
+.grid-content .grid-item:nth-child(5){
+    background: url(../images/251698668678.jpg)no-repeat center;
+    background-size: cover;
+    grid-column: 3/4;
+    height: 100px;
+}
+.grid-content .grid-item:nth-child(6){
+    background: url(https://www.jedacademy.az/image/galery/931684391266.webp  )no-repeat center;
+    background-size: cover;
+    grid-row: 1/24;
+}
+.grid-content .grid-item:nth-child(7){
+    background: url(../images/441698668321.jpg)no-repeat center;
+    background-size: cover;
+    grid-row: 2/19;
+}
+.grid-content .grid-item:nth-child(8){
+    background: url(../images/21676640679.jpg)no-repeat center;
+    background-size: cover;
+    grid-column: 4/5;
+    height: 140px;
+    margin-top: -40px;
+}
+
