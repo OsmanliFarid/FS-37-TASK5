@@ -3,8 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
 .grid-content{
-    background-color: aqua;
     width: 1300px;
     display: grid;
     grid-template-columns: 6fr 2fr 3fr 2fr;
